@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!-- Configurações básicas e responsividade -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechEduca - Portal de Cursos de Informática</title>
+    
+    <!-- Boa Prática: Separação de HTML e CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- 1. Cabeçalho com nome da empresa e 2. Menu de navegação -->
+    <header class="cabecalho-principal">
+        <div class="container-cabecalho">
+            <h1 class="logo-empresa">TechEduca</h1>
+            <nav class="menu-navegacao">
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#cursos">Cursos</a></li>
+                    <li><a href="#sobre">Sobre Nós</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 3. Banner de apresentação -->
+    <section id="inicio" class="banner-apresentacao">
+        <div class="conteudo-banner">
+            <h2>Transforme seu futuro com a tecnologia</h2>
+            <p>Aprenda as habilidades mais requisitadas do mercado com nossos cursos práticos.</p>
+        </div>
+    </section>
+
+    <!-- 4. Três cursos disponíveis -->
+    <!-- Boa Prática: Nomes explicativos nas classes (ex: secao-cursos, cartao-curso) -->
+    <section id="cursos" class="secao-cursos">
+        <h2 class="titulo-secao">Nossos Cursos</h2>
+        <div class="grade-cursos">
+            
+            <article class="cartao-curso">
+                <h3 class="titulo-curso">Lógica de Programação</h3>
+                <p class="descricao-curso">O primeiro passo para se tornar um desenvolvedor. Aprenda a pensar como um programador.</p>
+                <button class="botao-matricula">Saber mais</button>
+            </article>
+
+            <article class="cartao-curso">
+                <h3 class="titulo-curso">Desenvolvimento Web</h3>
+                <p class="descricao-curso">Crie sites modernos e responsivos utilizando HTML5, CSS3 e JavaScript do zero ao profissional.</p>
+                <button class="botao-matricula">Saber mais</button>
+            </article>
+
+            <article class="cartao-curso">
+                <h3 class="titulo-curso">Análise de Dados</h3>
+                <p class="descricao-curso">Aprenda a extrair valor de grandes volumes de dados usando Python e ferramentas de BI.</p>
+                <button class="botao-matricula">Saber mais</button>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- 5. Seção "Sobre nós" -->
+    <section id="sobre" class="secao-sobre">
+        <div class="conteudo-sobre">
+            <h2 class="titulo-secao">Sobre a TechEduca</h2>
+            <p>Fundada em 2020, a TechEduca tem como missão democratizar o ensino de tecnologia. Acreditamos que a educação prática e acessível é a chave para o desenvolvimento profissional.</p>
+        </div>
+    </section>
+
+    <!-- 6. Rodapé com informações de contato -->
+    <footer id="contato" class="rodape-principal">
+        <div class="conteudo-rodape">
+            <p>&copy; 2026 TechEduca. Todos os direitos reservados.</p>
+            <p>Contato: contato@techeduca.com.br | (11) 99999-9999</p>
+        </div>
+    </footer>
+
+</body>
+</html>
